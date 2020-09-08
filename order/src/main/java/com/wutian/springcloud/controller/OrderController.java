@@ -3,6 +3,7 @@ package com.wutian.springcloud.controller;
 import com.wutian.springcloud.entities.CommonResult;
 import com.wutian.springcloud.entities.Payment;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -20,7 +21,8 @@ import javax.annotation.Resource;
 @RestController
 @Slf4j
 public class OrderController {
-    public static final String PAYMENT_URL = "http://localhost:8001";
+    public static final String PAYMENT_URL = "http://CLOUD-PAYMENT";
+//    public static final String PAYMENT_URL = "http://localhost:8001";
 
     @Resource
     private RestTemplate restTemplate;

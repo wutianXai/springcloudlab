@@ -12,6 +12,8 @@
       <module>order</module>
       <module>common</module>
       <module>eureka-server7001</module>
+    <module>eureka-server7002</module>
+      <module>payment8002</module>
   </modules>
   <packaging>pom</packaging>
 
