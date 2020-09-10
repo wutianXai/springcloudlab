@@ -1,0 +1,10 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: cloud-payment
+  cloud:
+    zookeeper:
+      connect-string: 192.168.1.52:2181
+      timeout: 20000
