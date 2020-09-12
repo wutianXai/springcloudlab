@@ -16,3 +16,12 @@ firewall-cmd --state
 ####客户端查看 zookeeper状态
 * ./bin/zkCli.sh -server 127.0.0.1:2181
 * ls -R /
+
+
+### USE CONSUL 
+#### download 
+https://www.consul.io/downloads
+#### start consul
+consul agent -dev
+#### enter index
+http;//localhost:8500
