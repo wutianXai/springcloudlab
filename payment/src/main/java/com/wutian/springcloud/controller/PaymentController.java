@@ -51,6 +51,11 @@ public class PaymentController {
         try { TimeUnit.SECONDS.sleep(3); }catch (Exception e) {e.printStackTrace();}
         return serverPort;
     }
+
+    @GetMapping(value = "/payment/lb")
+    public String paymentLB(){
+        return serverPort;
+    }
 }
 
 
