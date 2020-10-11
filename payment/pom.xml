@@ -12,6 +12,13 @@
     <artifactId>payment</artifactId>
 
     <dependencies>
+
+        <!--包含了sleuth+zipkin-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>com.wutian.springcloud</groupId>
             <artifactId>commons</artifactId>
