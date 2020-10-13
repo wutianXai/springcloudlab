@@ -25,3 +25,10 @@ https://www.consul.io/downloads
 consul agent -dev
 #### enter index
 http;//localhost:8500
+
+### bus配置中心刷新
+curl -X POST "http://localhost:3344/actuator/bus-refresh"
+
+### Nacos 相关命令
+#### CP模式切换
+curl -X PUT '$NACOS_SERVER:8848/nacos/v1/ns/operator/switches?entry=serverMode&value=CP'
