@@ -1,3 +1,7 @@
+科学上网注册地址：https://github.com/glados-network/GLaDOS
+邀请码:18J3C-7TBKS-11VKY-KPBCE
+通过邀请码注册后，签到即可延长会员有效期
+
 # springcloudlab
 
 
