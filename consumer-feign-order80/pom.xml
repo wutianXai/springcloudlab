@@ -23,7 +23,7 @@
         </dependency>
         <dependency>
             <groupId>com.wutian.springcloud</groupId>
-            <artifactId>common</artifactId>
+            <artifactId>commons</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
